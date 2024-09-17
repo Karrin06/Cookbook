@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Bignoodletitling';
+    src: url(big_noodle_titling.ttf);
+    font-family: 'Elegance';
+    src: url(Rounded_Elegance.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.wrapper{
+        width: 1170px;
+        margin: 0 auto;
+}
+header{
+    height: 100px;
+    background: #213032;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family:'Bignoodletitling';
+    color: #fff;
+    letter-spacing: 5px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Bignoodletitling';
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+}
+.banner-area{
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 70px;
+    font-family:'Elegance';
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 20px;
+}
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: #314e52;
+    height: 1000px;
+}
+.content-area h1{
+    font-family: 'Elegance';
+    src: url(Rounded_Elegance.ttf);
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+    font-size: 450%;
+    color: #fff;
+}
+.content-area p{
+    padding: 2% 0;
+    font-family: 'Elegance';
+    src: url(Rounded_Elegance.ttf);
+    line-height: 30px;
+    text-align: justify;
+    color: #fff;
+}
+.span {
+    width:fit-content;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 40 px;
+}
+.container1{
+    background-color: #649197;
+    width: fit-content;
+    border: 1px solid grey;
+    float: left;
+    padding: 44px;
+        font-family: 'Elegance';
+    src: url(Rounded_Elegance.ttf);
+}
+
+.container2{
+    background-color: #ebc470;
+    width: 69%;
+    border: 1px solid grey;
+    float: unset;
+    padding: 30px;
+    margin: 1px;
+    position: relative;
+    margin-left: 30%;
+
+    
+}
+h2{
+    text-align: left;
+    font-family: 'Bignoodletitling';
+    font-size: 350%;
+}
+ul{
+    text-align: left;
+    font-family: 'Elegance';
+    line-height: 30px;
+}
+ol{
+    text-align: left;
+    font-family: 'Elegance';
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+
+footer{
+    padding: 20px 0;
+    background: #182f32;
+}
+footer h5{
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+    color: #97a2a3;
+}
